@@ -1,0 +1,77 @@
+input {
+    cursor: pointer;
+    align-content: center;
+    background-color: white;
+    color: black;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#qty {
+    align-content: space-between;
+    background-color: white;
+}
+
+ul#tobuy {
+    border: solid 2px black;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+ul#alreadybought {
+    border: solid 2px black;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+
+#submit {
+    height: 45px;
+    width: 100px;
+    font-size: large;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    padding-left: 7px;
+    margin: 11px;
+    border-radius: 8px;
+    border: none;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+#container {
+    background-color: coral;
+}
+
+li {
+    padding-right: 12.5px;
+}
+
+.former error0 {
+    color: black;
+}
+
+.formerror1 {
+    color: black;
+}
+
+#markBought,
+#markUnbought {
+    height: 45px;
+    width: 130px;
+    font-size: large;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    padding-left: 7px;
+    margin: 11px;
+    border-radius: 8px;
+    border: none;
+    background-color: lightblue;
+    cursor: pointer;
+}
